@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="blessus, blessus.com">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"> -->
+    <link rel="shortcut icon" href="assets/images/logo.ico" type="image/x-icon">
+    <meta name="description" content="Aariv Invitation Card">
+    <title>Aariv party</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #fff;
+            color: #fff;
+            padding: 20px;
+            text-align: left;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        video {
+            width: 100%;
+            max-height: auto;
+            display: block;
+        }
+
+        footer {
+            background-color: #fff;
+            color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- <h1>Welcome to My Responsive Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav> -->
+        <div class="menu-logo">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="#">
+                        <img src="assets/images/logo.png" alt="blessus"
+                            title="" style="height: 3.8rem; float: left;">
+                    </a>
+                </span>
+
+            </div>
+        </div>
+    </header>
+
+    <video id="v-invitation" controls autoplay loop>
+       <source src="assets/video/aariv-i3.mp4" type="video/mp4">
+    </video>
+
+    <video id="v-invitation-add" >
+        <source src="assets/video/aariv-i2.mp4" type="video/mp4">
+     </video>
+
+
+    <section class="cid-rM0Moi5LPP map-1" id="image2-c">
+        <figure class="mbr-figure">
+            <a target="_blank"
+                href="https://maps.app.goo.gl/vz3FopcJoR6ByvL28">
+                <div class="text-center">Reception Location Map</div>
+                <div class="image-block" style="width: 100%;">
+                    <img src="assets/images/map/aariv.png" alt="blessus" title="">
+                    <figcaption class="mbr-figure-caption mbr-figure-caption-over">
+                        <div class="pb-5 px-3 mbr-white align-center mbr-fonts-style display-1"></div>
+                    </figcaption>
+                </div>
+            </a>
+        </figure>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 @ All rights reserved.</p>
+    </footer>
+</body>
+<script>
+    
+    var video = document.getElementById("v-invitation-add");
+    video.addEventListener("canplay", function() {
+        video.currentTime = 1;
+        // video.play();
+    });
+
+</script>
+</html>
