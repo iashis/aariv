@@ -18,5 +18,5 @@ function countdown(targetDate) {
     }
 }
 
-const targetDate = new Date('2024-12-31T00:00:00').getTime(); // Change this date as needed
+const targetDate = new Date('2024-06-01T00:00:00').getTime(); // Change this date as needed
 const intervalId = setInterval(() => countdown(targetDate), 1000);
